@@ -1,0 +1,31 @@
+{
+  "name": "sass_painter",
+  "version": "1.0.0",
+  "description": "Riproduzione layout con sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoalivernini/sass-painter.git"
+  },
+  "keywords": [
+    "sass",
+    "html",
+    "css"
+  ],
+  "author": "Nico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoalivernini/sass-painter/issues"
+  },
+  "homepage": "https://github.com/nicoalivernini/sass-painter#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.16",
+    "postcss": "^8.2.10",
+    "resolve-url-loader": "^3.1.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1"
+  }
+}
