@@ -1,0 +1,22 @@
+.navbar {
+  .option-navbar {
+    .content-option-navbar{
+      ul {
+        @include flex-end;
+        list-style: none;
+        li{
+          i {
+            color: $icon-color;
+          }
+        }
+      }
+
+
+
+
+    }
+  }
+  .content-option-navbar{
+
+  }
+}
