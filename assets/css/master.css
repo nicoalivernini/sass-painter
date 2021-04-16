@@ -17,6 +17,23 @@
   background-color: #0e0e0e;
 }
 
+.ptb-5 {
+  padding: 5px;
+}
+
+.ptb-10 {
+  padding: 10px;
+}
+
+.plr-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.pr-10 {
+  padding-right: 10px;
+}
+
 .navbar .option-navbar .content-option-navbar ul {
   display: flex;
   justify-content: flex-end;
@@ -24,6 +41,9 @@
   list-style: none;
 }
 .navbar .option-navbar .content-option-navbar ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #acacac;
 }
 .navbar .option-navbar .content-option-navbar ul li i {

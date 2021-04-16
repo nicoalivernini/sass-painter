@@ -5,6 +5,7 @@
         @include flex-end;
         list-style: none;
         li{
+          @include flex-center;
           color: $text-icon-color;
           i {
             color: $icon-color;
