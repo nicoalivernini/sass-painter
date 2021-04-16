@@ -1,11 +1,26 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @mixin flex-end {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-@mixin flex-center {
+@mixin flex-start {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
+
+@mixin arrow-dropdown {
+  content: '\f078';
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  color: $text-icon-color;
+  vertical-align: middle;
+  padding-left: 5px;
 }

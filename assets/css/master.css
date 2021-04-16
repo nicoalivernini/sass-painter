@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -18,11 +19,18 @@
 }
 
 .ptb-5 {
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .ptb-10 {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ptb-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .plr-15 {
@@ -30,8 +38,16 @@
   padding-right: 15px;
 }
 
+.pr-5 {
+  padding-right: 5px;
+}
+
 .pr-10 {
   padding-right: 10px;
+}
+
+.pr-20 {
+  padding-right: 20px;
 }
 
 .navbar .option-navbar .content-option-navbar ul {
@@ -48,4 +64,21 @@
 }
 .navbar .option-navbar .content-option-navbar ul li i {
   color: #1087ff;
+}
+.navbar .menu-navbar .content-menu-navbar ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.navbar .menu-navbar .content-menu-navbar ul li a {
+  text-decoration: none;
+  color: #d0d0d0;
+}
+.navbar .menu-navbar .content-menu-navbar ul li a.drop:after {
+  content: "";
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  color: #acacac;
+  vertical-align: middle;
+  padding-left: 5px;
 }

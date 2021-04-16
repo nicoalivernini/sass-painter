@@ -12,13 +12,25 @@
           }
         }
       }
+    }
+  }
+  .menu-navbar {
+    .content-menu-navbar{
+      ul {
+        @include flex-start;
+        li {
+          a {
+            text-decoration: none;
+            color: $text-menu-color;
 
-
-
+            &.drop:after {
+              @include arrow-dropdown;
+            }
+          }
+        }
+      }
 
     }
   }
-  .content-option-navbar{
 
-  }
 }

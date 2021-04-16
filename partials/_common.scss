@@ -7,23 +7,41 @@
       padding: 0 10%;
     }
     &.black {
-      background-color: $navbar-color;
+      background-color: $background-navbar-color;
     }
 }
 
+//Padding top e bottom
 .ptb-5 {
-  padding: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .ptb-10 {
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
+.ptb-15 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+//Padding left e right
 .plr-15 {
   padding-left: 15px;
   padding-right: 15px;
 }
 
+//Padding right
+.pr-5 {
+  padding-right: 5px;
+}
+
 .pr-10 {
   padding-right: 10px;
+}
+
+.pr-20 {
+  padding-right: 20px;
 }
