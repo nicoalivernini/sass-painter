@@ -1,34 +1,146 @@
+//First section
 .jumbo {
   .container {
-    .main {
-      .content-jumbo{
-        img {
-          width: 25%;
+    .content-jumbo{
+      img {
+        width: 25%;
+      }
+      p {
+        color: $text-color;
+        &.offerta {
+          color: rgb(192, 31, 160);
+          &.bold {
+            font-weight: 700;
+          }
+          &.italic {
+            font-style: italic;
+          }
         }
-        p {
-          color: $text-color;
-          &.offerta {
-            color: rgb(192, 31, 160);
-            &.bold {
-              font-weight: 700;
-            }
-            &.italic {
-              font-style: italic;
+      }
+      .button-content-jumbo {
+        button {
+          text-transform: uppercase;
+          padding: 10px 20px;
+          border: 1px solid black;
+          &.black {
+            background-color: $color-black;
+            color: $color-white;
+          }
+          &.transparent {
+            background-color: transparent;
+            color: $color-black;
+          }
+        }
+      }
+    }
+  }
+}
+//Second section
+#value{
+  &.gray{
+    background-color: $background-main-color;
+  }
+  .container {
+    .value {
+      .content-value {
+        .text-value {
+          h3 {
+            font-size: 25px;
+            font-weight: 300;
+          }
+        }
+        .card-value {
+          @include flex-space-between;
+          .content-card-value {
+            width: calc(100% / 3 - 10px);
+            .content-card{
+              background-color: $color-white;
+              img {
+                width: 100%;
+              }
+              .text-content-card {
+                h4 {
+                  span {
+                    text-transform: uppercase;
+                    color: $color-celeste;
+                    font-style: italic;
+                  }
+                }
+                p {
+                  color: $text-icon-color;
+                  a {
+                    text-decoration: none;
+                    color: $color-celeste;
+                  }
+                }
+              }
             }
           }
         }
-        .button-content-jumbo {
+      }
+    }
+  }
+}
+//Third section
+#educational {
+  &.gray{
+    background-color: $background-main-color;
+  }
+  .container {
+    .educational {
+      .content-educational {
+        @include flex-center;
+        .text-educational {
+          @include flex-start-column-center;
+          height: 365px;
+          width: 50%;
+          color: $color-white;
+          &.purple {
+            background-color: $color-purple;
+          }
+          &.gray {
+            background-color: $color-gray;
+          }
+          &.celeste {
+            background-color: $color-celeste;
+          }
+          h3 {
+            font-size: 30px;
+            font-weight: 400;
+          }
+          p {
+            font-size: 18px;
+            font-weight: 300;
+          }
           button {
             text-transform: uppercase;
             padding: 10px 20px;
-            border: 1px solid black;
-            &.black {
-              background-color: $color-black;
-              color: $color-white;
+            &.purple {
+              color: $color-purple;
+              border: 1px solid $color-purple;
             }
-            &.transparent {
-              background-color: transparent;
-              color: $color-black;
+            &.gray {
+              color: $color-gray;
+              border: 1px solid $color-gray;
+            }
+            &.celeste {
+              color: $color-celeste;
+              border: 1px solid $color-celeste;
+            }
+          }
+        }
+        .photo-educational {
+          height: 365px;
+          width: 50%;
+          position: relative;
+          img {
+            width: 100%;
+            &.hover {
+              position: absolute;
+              top: 50%;
+              transform: translate(0, -50%);
+              left: 0;
+              width: 80%;
             }
           }
         }

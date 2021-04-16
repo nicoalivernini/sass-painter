@@ -22,6 +22,18 @@ body {
   background-color: #0e0e0e;
 }
 
+.txt-center {
+  text-align: center;
+}
+
+.pad-15 {
+  padding: 15px;
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
 .ptb-5 {
   padding-top: 5px;
   padding-bottom: 5px;
@@ -47,6 +59,11 @@ body {
   padding-right: 15px;
 }
 
+.plr-50 {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .pr-5 {
   padding-right: 5px;
 }
@@ -63,12 +80,20 @@ body {
   padding-bottom: 10px;
 }
 
+.pb-15 {
+  padding-bottom: 15px;
+}
+
 .pb-20 {
   padding-bottom: 20px;
 }
 
 .pb-25 {
   padding-bottom: 25px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
 }
 
 .pb-80 {
@@ -145,31 +170,131 @@ body {
   padding-left: 5px;
 }
 
-.jumbo .container .main .content-jumbo img {
+.jumbo .container .content-jumbo img {
   width: 25%;
 }
-.jumbo .container .main .content-jumbo p {
+.jumbo .container .content-jumbo p {
   color: black;
 }
-.jumbo .container .main .content-jumbo p.offerta {
+.jumbo .container .content-jumbo p.offerta {
   color: #c01fa0;
 }
-.jumbo .container .main .content-jumbo p.offerta.bold {
+.jumbo .container .content-jumbo p.offerta.bold {
   font-weight: 700;
 }
-.jumbo .container .main .content-jumbo p.offerta.italic {
+.jumbo .container .content-jumbo p.offerta.italic {
   font-style: italic;
 }
-.jumbo .container .main .content-jumbo .button-content-jumbo button {
+.jumbo .container .content-jumbo .button-content-jumbo button {
   text-transform: uppercase;
   padding: 10px 20px;
   border: 1px solid black;
 }
-.jumbo .container .main .content-jumbo .button-content-jumbo button.black {
+.jumbo .container .content-jumbo .button-content-jumbo button.black {
   background-color: black;
   color: white;
 }
-.jumbo .container .main .content-jumbo .button-content-jumbo button.transparent {
+.jumbo .container .content-jumbo .button-content-jumbo button.transparent {
   background-color: transparent;
   color: black;
+}
+
+#value.gray {
+  background-color: #e2e2e2;
+}
+#value .container .value .content-value .text-value h3 {
+  font-size: 25px;
+  font-weight: 300;
+}
+#value .container .value .content-value .card-value {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#value .container .value .content-value .card-value .content-card-value {
+  width: calc(100% / 3 - 10px);
+}
+#value .container .value .content-value .card-value .content-card-value .content-card {
+  background-color: white;
+}
+#value .container .value .content-value .card-value .content-card-value .content-card img {
+  width: 100%;
+}
+#value .container .value .content-value .card-value .content-card-value .content-card .text-content-card h4 span {
+  text-transform: uppercase;
+  color: #3397ff;
+  font-style: italic;
+}
+#value .container .value .content-value .card-value .content-card-value .content-card .text-content-card p {
+  color: #acacac;
+}
+#value .container .value .content-value .card-value .content-card-value .content-card .text-content-card p a {
+  text-decoration: none;
+  color: #3397ff;
+}
+
+#educational.gray {
+  background-color: #e2e2e2;
+}
+#educational .container .educational .content-educational {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#educational .container .educational .content-educational .text-educational {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 365px;
+  width: 50%;
+  color: white;
+}
+#educational .container .educational .content-educational .text-educational.purple {
+  background-color: #2d0954;
+}
+#educational .container .educational .content-educational .text-educational.gray {
+  background-color: #2e2e2e;
+}
+#educational .container .educational .content-educational .text-educational.celeste {
+  background-color: #3397ff;
+}
+#educational .container .educational .content-educational .text-educational h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+#educational .container .educational .content-educational .text-educational p {
+  font-size: 18px;
+  font-weight: 300;
+}
+#educational .container .educational .content-educational .text-educational button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+#educational .container .educational .content-educational .text-educational button.purple {
+  color: #2d0954;
+  border: 1px solid #2d0954;
+}
+#educational .container .educational .content-educational .text-educational button.gray {
+  color: #2e2e2e;
+  border: 1px solid #2e2e2e;
+}
+#educational .container .educational .content-educational .text-educational button.celeste {
+  color: #3397ff;
+  border: 1px solid #3397ff;
+}
+#educational .container .educational .content-educational .photo-educational {
+  height: 365px;
+  width: 50%;
+  position: relative;
+}
+#educational .container .educational .content-educational .photo-educational img {
+  width: 100%;
+}
+#educational .container .educational .content-educational .photo-educational img.hover {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+  width: 80%;
 }
