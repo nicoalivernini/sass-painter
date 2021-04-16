@@ -1,0 +1,38 @@
+.jumbo {
+  .container {
+    .main {
+      .content-jumbo{
+        img {
+          width: 25%;
+        }
+        p {
+          color: $text-color;
+          &.offerta {
+            color: rgb(192, 31, 160);
+            &.bold {
+              font-weight: 700;
+            }
+            &.italic {
+              font-style: italic;
+            }
+          }
+        }
+        .button-content-jumbo {
+          button {
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border: 1px solid black;
+            &.black {
+              background-color: $color-black;
+              color: $color-white;
+            }
+            &.transparent {
+              background-color: transparent;
+              color: $color-black;
+            }
+          }
+        }
+      }
+    }
+  }
+}

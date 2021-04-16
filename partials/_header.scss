@@ -22,7 +22,7 @@
           a {
             text-decoration: none;
             color: $text-menu-color;
-
+            font-size: 12px;
             &.drop:after {
               @include arrow-dropdown;
             }

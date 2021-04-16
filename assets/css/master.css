@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -33,6 +37,11 @@
   padding-bottom: 15px;
 }
 
+.ptb-25 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .plr-15 {
   padding-left: 15px;
   padding-right: 15px;
@@ -48,6 +57,58 @@
 
 .pr-20 {
   padding-right: 20px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
 }
 
 .navbar .option-navbar .content-option-navbar ul {
@@ -73,6 +134,7 @@
 .navbar .menu-navbar .content-menu-navbar ul li a {
   text-decoration: none;
   color: #d0d0d0;
+  font-size: 12px;
 }
 .navbar .menu-navbar .content-menu-navbar ul li a.drop:after {
   content: "";
@@ -81,4 +143,33 @@
   color: #acacac;
   vertical-align: middle;
   padding-left: 5px;
+}
+
+.jumbo .container .main .content-jumbo img {
+  width: 25%;
+}
+.jumbo .container .main .content-jumbo p {
+  color: black;
+}
+.jumbo .container .main .content-jumbo p.offerta {
+  color: #c01fa0;
+}
+.jumbo .container .main .content-jumbo p.offerta.bold {
+  font-weight: 700;
+}
+.jumbo .container .main .content-jumbo p.offerta.italic {
+  font-style: italic;
+}
+.jumbo .container .main .content-jumbo .button-content-jumbo button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+.jumbo .container .main .content-jumbo .button-content-jumbo button.black {
+  background-color: black;
+  color: white;
+}
+.jumbo .container .main .content-jumbo .button-content-jumbo button.transparent {
+  background-color: transparent;
+  color: black;
 }
