@@ -1,0 +1,76 @@
+footer {
+  &.gray {
+    background-color: $background-main-color;
+  }
+  .container {
+    .content-footer {
+      .menu-footer {
+        .content-menu-footer {
+          @include flex-between-flex-start;
+          .column-menu-footer {
+            ul {
+              list-style: none;
+              li {
+                &:first-child {
+                  font-size: 18px;
+                  font-weight: 500;
+                }
+                font-weight: 300;
+                ul {
+                  &.content-icon-footer {
+                    @include flex-end;
+                  }
+                  li {
+                    width: 40px;
+                    fill: #fff;
+                    &.in {
+                      background-color: #E4405F;
+                    }
+                    &.fb {
+                      background-color: #3b5998;
+                    }
+                    &.tw {
+                      background-color: #1DA1F2;
+                    }
+                    &.yt {
+                      background-color: #CD201F;
+                    }
+                    &.pi {
+                      background-color: #BD081C;
+                    }
+                    &.rw {
+                      background-color: #FF8D00;
+                    }
+                    svg {
+
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .footer-bar{
+        .content-footer-bar {
+          .right-footer-bar {
+            .content-right-bar {
+              img {
+
+              }
+            }
+          }
+          .left-footer-bar {
+            .content-left-bar {
+              ul {
+                li {
+                  
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

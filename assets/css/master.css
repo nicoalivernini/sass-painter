@@ -54,9 +54,19 @@ body {
   padding-bottom: 25px;
 }
 
+.ptb-30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .plr-15 {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.plr-25 {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .plr-50 {
@@ -74,6 +84,10 @@ body {
 
 .pr-20 {
   padding-right: 20px;
+}
+
+.pb-5 {
+  padding-bottom: 5px;
 }
 
 .pb-10 {
@@ -297,4 +311,50 @@ body {
   transform: translate(0, -50%);
   left: 0;
   width: 80%;
+}
+
+footer.gray {
+  background-color: #e2e2e2;
+}
+footer .container .content-footer .menu-footer .content-menu-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul {
+  list-style: none;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li {
+  font-weight: 300;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li:first-child {
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul.content-icon-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li {
+  width: 40px;
+  fill: #fff;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li.in {
+  background-color: #E4405F;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li.fb {
+  background-color: #3b5998;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li.tw {
+  background-color: #1DA1F2;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li.yt {
+  background-color: #CD201F;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li.pi {
+  background-color: #BD081C;
+}
+footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li.rw {
+  background-color: #FF8D00;
 }
