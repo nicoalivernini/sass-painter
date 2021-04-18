@@ -1,34 +1,40 @@
 //First section
-.jumbo {
-  .container {
-    .content-jumbo{
-      img {
-        width: 25%;
-      }
-      p {
-        color: $text-color;
-        &.offerta {
-          color: rgb(192, 31, 160);
-          &.bold {
-            font-weight: 700;
-          }
-          &.italic {
-            font-style: italic;
+#jumbo {
+  .jumbo {
+    .container {
+      .content-jumbo{
+        img {
+          width: 25%;
+        }
+        p {
+          color: $text-color;
+          &.offerta {
+            font-size: 13px;
+            color: rgb(192, 31, 160);
+            &.bold {
+              font-weight: 700;
+              font-style: italic;
+            }
+            &.italic {
+              font-style: italic;
+              font-size: 12px;
+              font-weight: 300;
+            }
           }
         }
-      }
-      .button-content-jumbo {
-        button {
-          text-transform: uppercase;
-          padding: 10px 20px;
-          border: 1px solid black;
-          &.black {
-            background-color: $color-black;
-            color: $color-white;
-          }
-          &.transparent {
-            background-color: transparent;
-            color: $color-black;
+        .button-content-jumbo {
+          button {
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border: 1px solid black;
+            &.black {
+              background-color: $color-black;
+              color: $color-white;
+            }
+            &.transparent {
+              background-color: transparent;
+              color: $color-black;
+            }
           }
         }
       }
@@ -60,6 +66,7 @@
               }
               .text-content-card {
                 h4 {
+                  font-size: 14px;
                   span {
                     text-transform: uppercase;
                     color: $color-celeste;
@@ -67,7 +74,9 @@
                   }
                 }
                 p {
-                  color: $text-icon-color;
+                  color: $text-color-footer;
+                  font-weight: 300;
+                  font-size: 12px;
                   a {
                     text-decoration: none;
                     color: $color-celeste;
@@ -92,7 +101,7 @@
         @include flex-center;
         .text-educational {
           @include flex-start-column-center;
-          height: 365px;
+          height: 300px;
           width: 50%;
           color: $color-white;
           &.purple {
@@ -105,11 +114,12 @@
             background-color: $color-celeste;
           }
           h3 {
-            font-size: 30px;
+            font-size: 22px;
             font-weight: 400;
           }
           p {
-            font-size: 18px;
+            font-size: 14px;
+            line-height: 25px;
             font-weight: 300;
           }
           button {
@@ -130,7 +140,7 @@
           }
         }
         .photo-educational {
-          height: 365px;
+          height: 300px;
           width: 50%;
           position: relative;
           img {

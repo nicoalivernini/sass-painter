@@ -7,6 +7,7 @@
         li{
           @include flex-center;
           color: $text-icon-color;
+          font-size: 12px;
           i {
             color: $icon-color;
           }
@@ -19,10 +20,13 @@
       ul {
         @include flex-start;
         li {
+          img {
+            width: 80px;
+          }
           a {
             text-decoration: none;
-            color: $text-menu-color;
-            font-size: 12px;
+            color: $color-white;
+            font-size: 11px;
             &.drop:after {
               @include arrow-dropdown;
             }

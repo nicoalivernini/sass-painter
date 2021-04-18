@@ -9,6 +9,9 @@
     &.black {
       background-color: $background-navbar-color;
     }
+    &.gray {
+      background-color: $color-footer-navbar;
+    }
 }
 
 .txt-center {
@@ -41,6 +44,11 @@
   padding-bottom: 15px;
 }
 
+.ptb-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .ptb-25 {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -52,6 +60,11 @@
 }
 
 //Padding left e right
+.plr-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .plr-15 {
   padding-left: 15px;
   padding-right: 15px;
@@ -100,6 +113,10 @@
   padding-bottom: 25px;
 }
 
+.pb-60 {
+  padding-bottom: 60px;
+}
+
 .pb-70 {
   padding-bottom: 70px;
 }
@@ -130,6 +147,12 @@
 
 .pt-60 {
   padding-top: 60px;
+}
+
+//Margin left-right
+.mlr-5 {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 //Margin right
