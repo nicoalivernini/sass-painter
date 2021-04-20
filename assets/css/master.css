@@ -119,6 +119,10 @@ body {
   padding-bottom: 25px;
 }
 
+.pb-50 {
+  padding-bottom: 50px;
+}
+
 .pb-60 {
   padding-bottom: 60px;
 }
@@ -352,6 +356,7 @@ body {
   font-weight: 300;
 }
 #value .container .value .content-value .card-value {
+  padding-bottom: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -387,6 +392,7 @@ body {
     font-size: 20px;
   }
   #value .container .value .content-value .card-value {
+    padding-bottom: 20px;
     flex-wrap: wrap;
   }
   #value .container .value .content-value .card-value .content-card-value {
@@ -395,6 +401,9 @@ body {
   }
 }
 
+#educational {
+  padding-bottom: 60px;
+}
 #educational.gray {
   background-color: #e2e2e2;
 }
@@ -461,7 +470,15 @@ body {
   left: 0;
   width: 80%;
 }
+
 @media (max-width: 768px) {
+  #educational {
+    padding-bottom: 20px;
+  }
+  #educational .container.fluid-all {
+    width: 100%;
+    margin: 0 auto;
+  }
   #educational .container .educational .content-educational {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -476,9 +493,12 @@ body {
     width: 100%;
   }
 }
-
 footer.gray {
   background-color: #e2e2e2;
+}
+footer .container .content-footer {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 footer .container .content-footer .menu-footer .content-menu-footer {
   display: flex;
@@ -525,6 +545,10 @@ footer .container .content-footer .menu-footer .content-menu-footer .column-menu
   background-color: #FF8D00;
 }
 @media (max-width: 768px) {
+  footer .container .content-footer {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
   footer .container .content-footer .menu-footer .content-menu-footer {
     flex-wrap: wrap;
   }

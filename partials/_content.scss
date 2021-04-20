@@ -132,6 +132,7 @@
           }
         }
         .card-value {
+          padding-bottom: 70px;
           @include flex-space-between;
           .content-card-value {
             width: calc(100% / 3 - 10px);
@@ -175,6 +176,7 @@
             }
           }
           .card-value {
+            padding-bottom: 20px;
             flex-wrap: wrap;
             .content-card-value {
               width: 100%;
@@ -189,6 +191,7 @@
 }
 //Third section
 #educational {
+  padding-bottom: 60px;
   &.gray{
     background-color: $background-main-color;
   }
@@ -254,8 +257,15 @@
       }
     }
   }
-  @media (max-width: 768px) {
+}
+@media (max-width: 768px) {
+  #educational {
+    padding-bottom: 20px;
     .container {
+      &.fluid-all {
+        width: 100%;
+        margin: 0 auto;
+      }
       .educational {
         .content-educational {
           flex-wrap: wrap;

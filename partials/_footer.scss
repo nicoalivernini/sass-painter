@@ -4,6 +4,8 @@ footer {
   }
   .container {
     .content-footer {
+      padding-left: 25px;
+      padding-right: 25px;
       .menu-footer {
         .content-menu-footer {
           @include flex-between-flex-start;
@@ -53,6 +55,8 @@ footer {
     }
     @media (max-width: 768px) {
       .content-footer {
+        padding-left: 5px;
+        padding-right: 5px;
         .menu-footer {
           .content-menu-footer {
             flex-wrap: wrap;
