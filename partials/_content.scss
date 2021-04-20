@@ -89,6 +89,22 @@
       }
     }
   }
+  @media (max-width: 768px) {
+    .container {
+      .value {
+        .content-value {
+          .card-value {
+            flex-wrap: wrap;
+            .content-card-value {
+              width: 100%;
+
+            }
+          }
+        }
+      }
+    }
+
+  }
 }
 //Third section
 #educational {

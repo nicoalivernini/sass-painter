@@ -281,6 +281,14 @@ body {
   text-decoration: none;
   color: #3397ff;
 }
+@media (max-width: 768px) {
+  #value .container .value .content-value .card-value {
+    flex-wrap: wrap;
+  }
+  #value .container .value .content-value .card-value .content-card-value {
+    width: 100%;
+  }
+}
 
 #educational.gray {
   background-color: #e2e2e2;
