@@ -144,6 +144,7 @@
               .text-content-card {
                 h4 {
                   font-size: 14px;
+                  font-weight: 500;
                   span {
                     text-transform: uppercase;
                     color: $color-celeste;
@@ -191,7 +192,6 @@
 }
 //Third section
 #educational {
-  padding-bottom: 60px;
   &.gray{
     background-color: $background-main-color;
   }
@@ -260,7 +260,6 @@
 }
 @media (max-width: 768px) {
   #educational {
-    padding-bottom: 20px;
     .container {
       &.fluid-all {
         width: 100%;

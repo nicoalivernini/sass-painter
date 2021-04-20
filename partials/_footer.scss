@@ -1,6 +1,7 @@
 footer {
+  padding-top: 60px;
   &.gray {
-    background-color: $background-main-color;
+    background-color: $background-footer-color;
   }
   .container {
     .content-footer {
@@ -145,5 +146,10 @@ footer {
         }
       }
     }
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    padding-top: 20px;
   }
 }

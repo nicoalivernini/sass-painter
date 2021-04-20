@@ -372,6 +372,7 @@ body {
 }
 #value .container .value .content-value .card-value .content-card-value .content-card .text-content-card h4 {
   font-size: 14px;
+  font-weight: 500;
 }
 #value .container .value .content-value .card-value .content-card-value .content-card .text-content-card h4 span {
   text-transform: uppercase;
@@ -401,9 +402,6 @@ body {
   }
 }
 
-#educational {
-  padding-bottom: 60px;
-}
 #educational.gray {
   background-color: #e2e2e2;
 }
@@ -472,9 +470,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  #educational {
-    padding-bottom: 20px;
-  }
   #educational .container.fluid-all {
     width: 100%;
     margin: 0 auto;
@@ -493,8 +488,11 @@ body {
     width: 100%;
   }
 }
+footer {
+  padding-top: 60px;
+}
 footer.gray {
-  background-color: #e2e2e2;
+  background-color: #e7e7e7;
 }
 footer .container .content-footer {
   padding-left: 25px;
@@ -625,5 +623,11 @@ footer .container .footer-bar .content-footer-bar .left-footer-bar .content-left
     display: flex;
     justify-content: flex-start;
     align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding-top: 20px;
   }
 }
