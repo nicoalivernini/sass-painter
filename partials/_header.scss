@@ -15,7 +15,7 @@
       }
     }
   }
-  @media (max-width: 768px) {
+  @media all and (max-width: 768px) {
     .option-navbar {
       display: none;
     }
@@ -43,7 +43,7 @@
       }
     }
   }
-  @media (max-width: 768px) {
+  @media all and (max-width: 768px) {
     .menu-navbar {
       .content-menu-navbar {
         position: relative;

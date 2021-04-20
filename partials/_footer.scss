@@ -59,7 +59,7 @@ footer {
         }
       }
     }
-    @media (max-width: 768px) {
+    @media all and (max-width: 768px) {
       .content-footer {
         padding-left: 5px;
         padding-right: 5px;
@@ -133,7 +133,7 @@ footer {
         }
       }
     }
-    @media (max-width: 768px) {
+    @media all and (max-width: 768px) {
       .footer-bar {
         .content-footer-bar {
           flex-wrap: wrap;
@@ -159,7 +159,7 @@ footer {
     }
   }
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   footer {
     padding-top: 20px;
   }

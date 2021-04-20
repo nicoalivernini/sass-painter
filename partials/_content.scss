@@ -57,7 +57,7 @@
     }
   }
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   #jumbo {
     &.overlay {
       background-color: red;
@@ -167,7 +167,7 @@
       }
     }
   }
-  @media (max-width: 768px) {
+  @media all and (max-width: 768px) {
     .container {
       .value {
         .content-value {
@@ -258,7 +258,7 @@
     }
   }
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   #educational {
     .container {
       &.fluid-all {

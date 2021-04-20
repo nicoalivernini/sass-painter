@@ -196,7 +196,7 @@ body {
 .navbar .option-navbar .content-option-navbar ul li i {
   color: #1087ff;
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   .navbar .option-navbar {
     display: none;
   }
@@ -225,7 +225,7 @@ body {
   vertical-align: middle;
   padding-left: 5px;
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   .navbar .menu-navbar .content-menu-navbar {
     position: relative;
   }
@@ -303,7 +303,7 @@ body {
   color: black;
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   #jumbo.overlay {
     background-color: red;
   }
@@ -388,7 +388,7 @@ body {
   text-decoration: none;
   color: #3397ff;
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   #value .container .value .content-value .text-value h3 {
     font-size: 20px;
   }
@@ -469,7 +469,7 @@ body {
   width: 80%;
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   #educational .container.fluid-all {
     width: 100%;
     margin: 0 auto;
@@ -547,7 +547,7 @@ footer .container .content-footer .menu-footer .content-menu-footer .column-menu
 footer .container .content-footer .menu-footer .content-menu-footer .column-menu-footer ul li ul li svg {
   display: flex;
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   footer .container .content-footer {
     padding-left: 5px;
     padding-right: 5px;
@@ -612,7 +612,7 @@ footer .container .footer-bar .content-footer-bar .left-footer-bar .content-left
   color: white;
   font-weight: 500;
 }
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   footer .container .footer-bar .content-footer-bar {
     flex-wrap: wrap;
     display: flex;
@@ -639,7 +639,7 @@ footer .container .footer-bar .content-footer-bar .left-footer-bar .content-left
   }
 }
 
-@media (max-width: 768px) {
+@media all and (max-width: 768px) {
   footer {
     padding-top: 20px;
   }
