@@ -208,6 +208,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  list-style: none;
 }
 .navbar .menu-navbar .content-menu-navbar ul li img {
   width: 80px;

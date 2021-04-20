@@ -27,6 +27,7 @@
       }
       ul {
         @include flex-start;
+        list-style: none;
         li {
           img {
             width: 80px;
