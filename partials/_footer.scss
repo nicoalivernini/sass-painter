@@ -24,6 +24,8 @@ footer {
                 ul {
                   &.content-icon-footer {
                     @include flex-end;
+                    padding-top: 25px;
+                    padding-bottom: 25px;
                   }
                   li {
                     width: 20px;
@@ -46,6 +48,9 @@ footer {
                     &.rw {
                       background-color: #FF8D00;
                     }
+                    svg {
+                        display: flex;
+                    }
                   }
                 }
               }
@@ -66,9 +71,15 @@ footer {
               padding-bottom: 20px;
               ul {
                 li {
+                  padding-bottom: 15px;
                   ul {
                     &.content-icon-footer {
                       @include flex-start;
+                      padding-top: 0;
+                      padding-bottom: 0;
+                    }
+                    li {
+                      padding-bottom: 0;
                     }
                   }
                 }
