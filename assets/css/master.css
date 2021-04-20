@@ -147,6 +147,10 @@ body {
   padding-top: 30px;
 }
 
+.pt-40 {
+  padding-top: 40px;
+}
+
 .pt-50 {
   padding-top: 50px;
 }
@@ -242,8 +246,19 @@ body {
   }
 }
 
+#jumbo .jumbo {
+  background-image: url("../img/bg-painter-home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 #jumbo .jumbo .container .content-jumbo img {
   width: 25%;
+}
+#jumbo .jumbo .container .content-jumbo img.desktop {
+  display: block;
+}
+#jumbo .jumbo .container .content-jumbo img.mobile {
+  display: none;
 }
 #jumbo .jumbo .container .content-jumbo p {
   color: black;
@@ -261,12 +276,21 @@ body {
   font-size: 12px;
   font-weight: 300;
 }
+#jumbo .jumbo .container .content-jumbo p.offerta.desktop {
+  display: block;
+}
+#jumbo .jumbo .container .content-jumbo p.offerta.mobile {
+  display: none;
+}
+#jumbo .jumbo .container .content-jumbo .button-content-jumbo {
+  padding-bottom: 80px;
+}
 #jumbo .jumbo .container .content-jumbo .button-content-jumbo button {
   text-transform: uppercase;
   padding: 10px 20px;
   border: 1px solid black;
 }
-#jumbo .jumbo .container .content-jumbo .button-content-jumbo button.black {
+#jumbo .jumbo .container .content-jumbo .button-content-jumbo button.full {
   background-color: black;
   color: white;
 }
@@ -275,6 +299,51 @@ body {
   color: black;
 }
 
+@media (max-width: 768px) {
+  #jumbo.overlay {
+    background-color: red;
+  }
+  #jumbo .jumbo {
+    background-position: right;
+  }
+  #jumbo .jumbo .container.fluid.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  #jumbo .jumbo .container .content-jumbo {
+    text-align: center;
+  }
+  #jumbo .jumbo .container .content-jumbo img.desktop {
+    display: none;
+  }
+  #jumbo .jumbo .container .content-jumbo img.mobile {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  #jumbo .jumbo .container .content-jumbo p {
+    color: white;
+  }
+  #jumbo .jumbo .container .content-jumbo p.offerta {
+    color: white;
+  }
+  #jumbo .jumbo .container .content-jumbo p.offerta.desktop {
+    display: none;
+  }
+  #jumbo .jumbo .container .content-jumbo .button-content-jumbo {
+    padding-bottom: 20px;
+  }
+  #jumbo .jumbo .container .content-jumbo .button-content-jumbo button.full {
+    background-color: white;
+    color: black;
+    border: 0;
+  }
+  #jumbo .jumbo .container .content-jumbo .button-content-jumbo button.transparent {
+    display: none;
+  }
+  #jumbo .jumbo .container .content-jumbo p.offerta.mobile {
+    display: block;
+  }
+}
 #value.gray {
   background-color: #e2e2e2;
 }
@@ -395,6 +464,10 @@ body {
 @media (max-width: 768px) {
   #educational .container .educational .content-educational {
     flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  #educational .container .educational .content-educational.column {
+    flex-direction: column;
   }
   #educational .container .educational .content-educational .text-educational {
     width: 100%;

@@ -1,10 +1,19 @@
 //First section
 #jumbo {
   .jumbo {
+    background-image: url('../img/bg-painter-home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     .container {
       .content-jumbo{
         img {
           width: 25%;
+          &.desktop {
+            display: block;
+          }
+          &.mobile {
+            display: none;
+          }
         }
         p {
           color: $text-color;
@@ -20,20 +29,89 @@
               font-size: 12px;
               font-weight: 300;
             }
+            &.desktop {
+              display: block;
+            }
+            &.mobile {
+              display: none;
+            }
           }
         }
         .button-content-jumbo {
+          padding-bottom: 80px;
           button {
             text-transform: uppercase;
             padding: 10px 20px;
             border: 1px solid black;
-            &.black {
+            &.full {
               background-color: $color-black;
               color: $color-white;
             }
             &.transparent {
               background-color: transparent;
               color: $color-black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #jumbo {
+    &.overlay {
+      background-color: red;
+    }
+    .jumbo {
+      background-position: right;
+
+      .container {
+        &.fluid {
+
+          &.overlay {
+              background-color: rgba(0, 0, 0, 0.8);
+          }
+        }
+        .content-jumbo {
+          text-align: center;
+          img {
+            &.desktop {
+              display: none;
+            }
+            &.mobile {
+              width: 50%;
+              display: block;
+              margin: 0 auto;
+            }
+          }
+          p {
+            color: $color-white;
+            &.offerta {
+              color: $color-white;
+              &.desktop {
+                display: none;
+              }
+            }
+
+          }
+          .button-content-jumbo {
+            padding-bottom: 20px;
+            button {
+              &.full {
+                background-color: $color-white;
+                color: $color-black;
+                border: 0;
+              }
+              &.transparent {
+                display: none;
+              }
+            }
+          }
+          p {
+            &.offerta {
+              &.mobile {
+                display: block;
+              }
             }
           }
         }
@@ -183,6 +261,10 @@
       .educational {
         .content-educational {
           flex-wrap: wrap;
+          flex-direction: column-reverse;
+          &.column {
+            flex-direction: column;
+          }
           .text-educational {
             width: 100%;
           }
