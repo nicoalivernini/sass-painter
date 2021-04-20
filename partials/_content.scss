@@ -93,11 +93,16 @@
     .container {
       .value {
         .content-value {
+          .text-value {
+            h3 {
+              font-size: 20px;
+            }
+          }
           .card-value {
             flex-wrap: wrap;
             .content-card-value {
               width: 100%;
-
+              padding-bottom: 25px;
             }
           }
         }
@@ -168,6 +173,21 @@
               left: 0;
               width: 80%;
             }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .container {
+      .educational {
+        .content-educational {
+          flex-wrap: wrap;
+          .text-educational {
+            width: 100%;
+          }
+          .photo-educational {
+            width: 100%;
           }
         }
       }

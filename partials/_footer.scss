@@ -51,6 +51,28 @@ footer {
         }
       }
     }
+    @media (max-width: 768px) {
+      .content-footer {
+        .menu-footer {
+          .content-menu-footer {
+            flex-wrap: wrap;
+            .column-menu-footer {
+              width: 100%;
+              padding-bottom: 20px;
+              ul {
+                li {
+                  ul {
+                    &.content-icon-footer {
+                      @include flex-start;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     .footer-bar{
       .content-footer-bar {
         @include flex-space-between;
@@ -89,6 +111,30 @@ footer {
                     font-weight: 500;
                   }
                 }
+              }
+            }
+          }
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      .footer-bar {
+        .content-footer-bar {
+          flex-wrap: wrap;
+          @include flex-start;
+          .right-footer-bar {
+            width: 100%;
+            .content-right-bar {
+                @include flex-start;
+            }
+          }
+          .left-footer-bar {
+            width: 100%;
+            flex-wrap: wrap;
+            .content-left-bar {
+              ul {
+                flex-wrap: wrap;
+                @include flex-start;
               }
             }
           }
