@@ -15,8 +15,16 @@
       }
     }
   }
+  @media (max-width: 768px) {
+    .option-navbar {
+      display: none;
+    }
+  }
   .menu-navbar {
     .content-menu-navbar{
+      i {
+        display: none;
+      }
       ul {
         @include flex-start;
         li {
@@ -33,8 +41,34 @@
           }
         }
       }
-
     }
   }
-
+  @media (max-width: 768px) {
+    .menu-navbar {
+      .content-menu-navbar {
+        position: relative;
+        i {
+          color: $color-white;
+          display: inline;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translate(0, -50%);
+        }
+        ul {
+          @include flex-center;
+          li {
+            display: none;
+            &:first-child {
+              display: block;
+              color: $color-white;
+            }
+            &.pr-20{
+              display: block;
+            }
+          }
+        }
+      }
+    }
+  }
 }

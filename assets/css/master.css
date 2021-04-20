@@ -188,6 +188,14 @@ body {
 .navbar .option-navbar .content-option-navbar ul li i {
   color: #1087ff;
 }
+@media (max-width: 768px) {
+  .navbar .option-navbar {
+    display: none;
+  }
+}
+.navbar .menu-navbar .content-menu-navbar i {
+  display: none;
+}
 .navbar .menu-navbar .content-menu-navbar ul {
   display: flex;
   justify-content: flex-start;
@@ -208,6 +216,34 @@ body {
   color: #acacac;
   vertical-align: middle;
   padding-left: 5px;
+}
+@media (max-width: 768px) {
+  .navbar .menu-navbar .content-menu-navbar {
+    position: relative;
+  }
+  .navbar .menu-navbar .content-menu-navbar i {
+    color: white;
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  .navbar .menu-navbar .content-menu-navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .menu-navbar .content-menu-navbar ul li {
+    display: none;
+  }
+  .navbar .menu-navbar .content-menu-navbar ul li:first-child {
+    display: block;
+    color: white;
+  }
+  .navbar .menu-navbar .content-menu-navbar ul li.pr-20 {
+    display: block;
+  }
 }
 
 #jumbo .jumbo .container .content-jumbo img {
